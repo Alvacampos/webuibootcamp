@@ -1,0 +1,24 @@
+body{
+	background-image: url(../Backgrounds/register.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+}
+.nav-link:hover{
+  transition: 250ms;
+  transform: scale(1.05);
+}
+#main{
+  margin-top: 3em;
+  padding: 20px;
+  background:rgba(212,215,219,0.5);
+  text-align: left;
+  border-bottom: solid rgb(218,165,32) 2px;
+  border-radius: 5px;
+}
+#foot{
+  text-align: center;
+  padding: 20px;
+  background:rgba(212,215,219,0.5);
+  border-radius: 5px;
+}

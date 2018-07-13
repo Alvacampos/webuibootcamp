@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+			<meta charset="UTF-8">      
+			<link type="text/css" rel="stylesheet" href="test1.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+			<link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+			<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+			<link rel="shortcut icon" type="image/x-icon" href="../Icons/main.ico">
+			<link rel="stylesheet" type="text/css" href="../Css/game.css">
+			<title>Pig Game</title>
+	</head>  
+	<body>
+		<header><!--used in html5, gives order and structure to the code-->
+			<!--bootstrap button-->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+				<a class="navbar-brand">Welcome</a>     
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">          
+					<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="../Html/home.html">
+								<img src="../Icons/houseIcon.png" width="30" height="30" title="Go to Home" name="Home">Home
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../Html/cv.html" title="Take a look at my Cv" name="Cv">
+								<img src="../Icons/cvIcon.png" width="30" height="30">Cv
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="https://www.linkedin.com/in/gonzaloalvarezcampos/" title="My Linkedin Profile" name="Linkedin Profile" target="_blank">
+								<img src="../Icons/linkedinIcon.png" width="30" height="30">Linkedin
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../Html/contact.html" title="Here is my contact info" name="Contact Info">
+								<img src="../Icons/contactIcon.png" width="30" height="30">Contact Info
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="../Html/register.html" title="Leave your contact info" name="Your Contact Info">
+								<img src="../Icons/registerIcon.png" width="30" height="30">Your Contact Info
+							</a>
+						 </li>  
+						<li class="nav-item">
+							<a class="nav-link" href="../Html/gallery.html" title="A few photos" name="Gallery">
+								<img src="../Icons/galleryIcon.png" width="30" height="30">Gallery
+							</a>                  
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="../Dices/game.html" title="Lets play a game" name="Game">
+								<img src="../Icons/gameIcon.png" width="30" height="30">Game
+							</a>                  
+						</li>       
+					</ul>         
+				</div>
+			</nav>
+			<!---->
+		</header>
+		<div class="alert alert-danger" role="alert" id="rules">
+			<p>GAME RULES:
+			The game has 2 player, playing in rounds.
+	    In each turn, a player rolls a dice as many times as he whishes. Each result gets added to his ROUND score.
+	    But, if the player rolls a 1, all his ROUND scores get lost. After that, it´s the next player´s turn.
+	    The player can choose to 'Hold', which means that his ROUND score gets added to his GLOBAL score. After that, it´s the next player´s turn.
+	    The first player to reach 100 points on GLOBAL score wins.</p>
+    </div>    
+		<div class="wrapper clearfix">
+			<div class="player-0-panel active">
+				<div class="player-name" id="name-0">Player 1</div>
+				<div class="player-score" id="score-0">43</div>
+				<div class="player-current-box" id=player-1-box>
+					<div class="player-current-label">Current</div>
+					<div class="player-current-score" id="current-0">11</div>
+				</div>
+			</div>
+						
+			<div class="player-1-panel">
+				<div class="player-name" id="name-1">Player 2</div>
+					<div class="player-score" id="score-1">72</div>
+					<div class="player-current-box" id=player-2-box>
+						<div class="player-current-label">Current</div>
+						<div class="player-current-score" id="current-1">0</div>
+					</div>
+			</div>
+						
+			<button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+			<button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+			<button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+						
+			<img src="../Dices/dice-1.png" alt="Dice" class="dice">
+		</div>            
+			<script src="../Js/game.js"></script>
+	</body>
+</html>

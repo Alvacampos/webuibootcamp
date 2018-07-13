@@ -1,0 +1,176 @@
+body{	
+	background-image: url(../Backgrounds/backCv.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;	
+	
+}
+.nav-link:hover{
+  transition: 250ms;
+  transform: scale(1.05);
+}
+#row1{
+	margin-top: 3em;  
+  background:rgba(212,215,219,0.5);
+  border-bottom: solid rgb(218,165,32) 2px;
+  border-radius: 5px; 
+  margin-bottom: 10px;
+}
+#row2{
+	margin-top: 3em;  
+  background:rgba(212,215,219,0.5); 
+  border-bottom: solid rgb(218,165,32) 2px;
+  border-radius: 5px; 
+  margin-bottom: 10px;
+}
+h2{
+  text-decoration: underline;
+}
+#bar{
+	margin-top: 3em;
+  padding: 20px;
+  background:rgba(212,215,219,0.5);
+  border-radius: 5px; 
+}
+#bar p{
+  margin-top: 2px;
+  padding: 5px;
+  text-decoration: underline;
+}
+.skills{
+	text-align: right;
+	padding-right: 20px;
+	line-height: 40px;
+	color: white;
+}
+.html{
+	width: 90%;
+	background-color: #07dd4b;
+}
+#asd{
+  display: none;
+}
+.html:hover{
+    transition: 300ms;
+    transform: scale(1.05);
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.css{  
+	width: 70%;
+	background-color: #ea0311;
+}
+.css:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.boots{
+  width: 70%;
+  background-color: #d84795;
+}
+.boots:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.js{
+	width: 45%;
+	background-color: #ae0bad;
+}
+.js:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.react{
+  width: 30%;
+  background-color: #dd027b;
+
+}
+.react:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.java{
+  width: 45%;
+  background-color: #01ceec;
+}
+.java:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.python{
+  width: 20%;
+  background-color: #b56a11;
+}
+.python:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.netbeans{
+  width: 70%;
+  background-color: #189723;
+}
+.netbeans:hover{
+    transition: 300ms;
+    transform: scale(1.05);
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.sublimetext{
+  width: 70%;
+  background-color: #9529cf;
+}
+.sublimetext:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.eclipse{
+  width: 50%;
+  background-color: #5d01ee ;
+}
+.eclipse:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+.english{
+  width: 90%;
+  background-color: #809892;
+}
+.english:hover{
+    transition: 300ms;
+    transform: scale(1.05);   
+    border-radius: 5px;
+    background-color: gold;
+    box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+footer{
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+}

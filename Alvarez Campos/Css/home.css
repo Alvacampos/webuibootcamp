@@ -1,0 +1,84 @@
+body{
+	background: linear-gradient(to right, red, yellow);
+  
+}
+h1 { 
+  text-decoration: underline;
+  text-shadow: 5px -2px 2px rgba(150, 150, 150, 1);  
+  font-family: 'Droid serif', serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;
+  text-align: center; 
+  padding: 2px;
+  color: #003153;
+}
+.nav-link:hover{
+  transition: 250ms;
+  transform: scale(1.05);
+}
+#quote{  
+  margin-top: 50px;
+  text-align: center;  
+  color: #003153;
+}
+.blockquote-footer{
+  color: white;
+}
+blockquote{
+  padding: 10px;
+  background:rgba(212,215,219,0.6);
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+#main{
+  margin-top: 100px;  
+}
+article{
+  color: #003153;
+  padding: 20px;
+  background:rgba(212,215,219,0.6);
+  box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+}
+#row1 article{	
+  border-bottom: solid rgb(218,165,32) 2px;
+  border-radius: 5px; 
+}
+#row1{	
+	margin-bottom: 10px;  
+}
+h2, h3{
+  text-decoration: underline;
+  text-shadow: 5px -2px 2px rgba(150, 150, 150, 1); 
+  font-family: 'Droid serif', serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 44px;
+  margin: 0 0 12px;   
+  padding: 2px;
+}
+footer{ 
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+	text-align: center;
+}
+.clockStyle{
+    background-color: #000;
+    border: #999 2px inset;
+    padding: 6px;
+    color: #0FF;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline;
+}
+.btn-warning:hover{ /*button action when mouse */     
+    transition: 300ms;
+    transform: scale(1.1);
+    margin: 5px;
+}
