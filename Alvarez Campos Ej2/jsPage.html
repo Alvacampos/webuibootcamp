@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body id= "app">  
+</body>
+<script>
+  const h1 = document.createElement('h1');
+  const title = document.createTextNode('This page was made only with JavaScript')
+  h1.appendChild(title);
+  const p = document.createElement('p');
+  const text = document.createTextNode('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero ab neque, eligendi minus perferendis iusto, nemo qui voluptatibus maiores tempora id distinctio labore magnam, nesciunt. Eaque, maxime. Beatae, consequatur.')
+  p.appendChild(text);
+  const button = document.createElement('button');
+  const content = document.createTextNode('Generate Array');
+  button.appendChild(content); 
+
+  const array = {
+    persons:[
+      {name:'Carl Carson', id:1},
+      {name:'Cosme Fulanito', id:2},
+      {name:'Juan Topo', id:3}
+    ]
+  } 
+
+  button.addEventListener("click",() =>{    
+    for (let i = 0; i < array.persons.length; i++) {
+      let x =document.createElement('p');
+      x.innerHTML=`Name: ${array.persons[i].name} - Id: ${array.persons[i].id}`;  
+      x.style.cssText = "color: blue; border: 1px solid black";     
+      p.appendChild(x);
+    }
+  }) 
+  //render + styling
+  const element = document.getElementById("app");
+  h1.style.textColor = 'blue';
+  element.style.backgroundColor = 'red';
+  button.style.backgroundColor = 'green';
+  element.appendChild(h1);
+  element.appendChild(p);
+  element.appendChild(button);
+</script>
+</html>
